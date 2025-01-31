@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    background-color: black;
+    color: var(--primary-color);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    justify-content:space-between ;
+    padding:5px
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 3%;
+    left: 100px;
+}
+
+
+:root{
+    --primary-color:#6c059d;
+    --secondary-color:#fffffe;
+    --accent1-color:#6c059e;
+    --accent2-color:#000000;
+}
+.welcome{
+    display: flex;
+    position:relative;
+}
+.textonpic{
+    position: absolute;
+    top:20px;
+    align-items:center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.about{
+    display: flex;
+  align-items: center;
+  width: 100px
+}
+p{
+     
+  margin-right: 20px;
+}
+img{
+    justify-self: unset;
+}
+*{
+
+}
+.gal{
+    display: flex;
+    justify-content: space-between;
+}
